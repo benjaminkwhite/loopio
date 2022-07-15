@@ -1,0 +1,15 @@
+@import "global";
+
+#scroller {
+  overflow: scroll;
+  width: 24rem;
+  height: 12rem;
+  border: 0.5em outset var(--orange);
+  display: inline-block;
+}
+
+#output {
+  padding: 0 1rem;
+  display: inline-block;
+  vertical-align: top;
+}
